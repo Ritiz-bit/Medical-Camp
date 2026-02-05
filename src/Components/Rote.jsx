@@ -3,6 +3,7 @@ import { Home } from "./Home"
 import { About } from "./About"
 import { Contact } from "./Contact"
 import { Register } from "./Register"
+import { Details } from "./Details"
 export const Rote=()=>{
     return(
       <div>
@@ -11,6 +12,7 @@ export const Rote=()=>{
          <Route path='/About' element={<About/>}/>
           <Route path='/Contact' element={<Contact/>}/>
            <Route path='/Register' element={<Register/>}/>
+           <Route path="/Details" element={<Details/>} />
        </Routes>
       </div>  
     )
